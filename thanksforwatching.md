@@ -18,8 +18,8 @@ class AmazontrSpider(scrapy.Spider):<br>
 keyword= 'iphone13pro512gb'<br>
 <br>
 smp = '&rh=n%3A2497181051&dc&qid=1650883483&rnid=2321267051&ref=sr_nr_n_2'<br>
-start_urls = ['https://www.amazon.co.jp/s?k=' + str(keyword) + str(smp)]<br>
-it is work. but i want set a cartegory a number['1','2','3'....els]<br>
+start_urls = ['https://www.amazon.co.jp/s?k=' + str(keyword) + str(smp)] it is work.<br>
+but i want set a cartegory a number['1','2','3'....els]<br>
 1 = smartphone<br>
 2 = tablet<br>
 3 = camera ... els<br>
